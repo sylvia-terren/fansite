@@ -1,0 +1,54 @@
+/* header */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+header { /*image */
+    background: url(img/band.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body{ /*fond du bloc principal*/
+    background-color: #dbac5a;
+}
+
+.ligneHeader{ /*ajustement des divs et couleur du header*/
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(243, 237, 223, 0.2);
+}
+
+.logo img { /*taille du logo*/
+    max-width: 25%;
+    max-height: 25%;
+}
+
+nav a { /*apparence de la police*/
+    font-size: 20px;
+    font-weight: 500;
+    color: #d8a143;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li{ /*apparence des puces*/
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+
+nav li a:hover { /*apparence des liens, hover pour l'animation*/
+    color: #FFF;
+    transition: all 0.4s;
+}
